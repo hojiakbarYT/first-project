@@ -1,0 +1,36 @@
+.container {
+    background-color: orange;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.row{
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+
+}
+.col{
+    background-color:black;
+    width: 100px;
+    height: 10vh;
+    margin: 15px;
+    color: white;
+    text-align: center;
+}
+.roow{
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+}
+.a{
+    background-color:black;
+    width: 100px;
+    height: 10vh;
+    margin: 15px;
+    color: white;
+    text-align: center;
+}
+
+
+

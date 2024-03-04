@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.nav {
+    margin-top: 30px;
+    display: flex;
+    height: 49.94px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_list {
+    display: flex;
+    gap: 32px;
+}
+
+.nav_list-item {
+    list-style: none;
+}
+
+.nav_list-item_link {
+    text-decoration: none;
+    color: #333;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: Open Sans;
+    font-weight: 700;
+    transition: 0.4s;
+}
+
+.nav_list-item_link:hover {
+    color: red;
+}
+
+.nav_list-item_linkkk {
+    text-decoration: none;
+    color: red;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: Open Sans;
+    font-weight: 700;
+    transition: 0.4s;
+}
+
+.nav_list-item_linkkk:hover {
+    color: black;
+}
+
+.btn {
+    width: 189px;
+    height: 47px;
+    border-radius: 8px;
+    border: 2px solid #DE2E54;
+    padding: 12px 24px;
+    background-color: white;
+    color: #DE2E54;
+    font-family: Open Sans;
+    font-weight: 700;
+    transition: 0.4s;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #DE2E54;
+}
+
+.headersection {
+    background-image: url(../image/image\ 4.png);
+    width: 1396px;
+    height: 533px;
+    margin-top: 30px;
+    position: relative;
+
+
+}
+
+.sayt-hero {
+    position: absolute;
+    margin-top: 52px;
+    margin-left: 800px;
+}
+
+.sectionh1 {
+    position: absolute;
+    margin-top: 150px;
+    width: 500px;
+    height: 82.29px;
+    margin-left: 170px;
+    color: white;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43.2px;
+}
+
+.button {
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 170px;
+    width: 189px;
+    height: 47px;
+    border-radius: 8px;
+    border: 2px solid #DE2E54;
+    padding: 12px 24px;
+    background-color: #DE2E54;
+    color: white;
+    font-family: Open Sans;
+    font-weight: 700;
+    transition: 0.4s;
+}
+
+.button:hover {
+    color: #DE2E54;
+    background-color: white;
+}
+
+.xizmatlar {
+    width: 133px;
+    height: 25.06px;
+    font-family:Open Sans;
+    margin-left: 500px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43.2px;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardimg1{
+
+}

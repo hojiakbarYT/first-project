@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    border-bottom: 1px solid #EEEEF4;
+}
+
+.nav {
+    display: flex;
+    height: 89px;
+    align-items: center;
+    font-size: 16px;
+
+}
+
+.nav_list {
+    display: flex;
+    gap: 30px;
+    margin-left: 80px;
+}
+
+.nav_list-item {
+    list-style: none;
+}
+
+.nav_list-item_link {
+    text-decoration: none;
+    color: #101010;
+
+}
+
+.btn {
+    margin-left: auto;
+    padding: 12px 24px;
+    font-size: 14px;
+    background-color: #101010;
+    color: white;
+    border: 1px solid #101010;
+    border-radius: 6px;
+    transition: 0.4s ease;
+}
+
+
+.btn:hover {
+    color: #101010;
+    background-color: white;
+}
+
+.firstSection {
+    margin-top: 92px;
+}
+
+.row {
+    display: flex;
+    gap: 50px;
+}
+.justify-beetwen{
+    display: flex;
+    justify-content: space-between !important;
+}
+.justify-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.white{
+    color: white;
+}
+.col {
+    width: 100%;
+}
+
+.takeBusiness {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 78.4px;
+    font-family: Plus Jakarta Sans;
+}
+
+.takeBusiness::before {
+    content: "Take your";
+    display: block;
+
+}
+
+.takeBusiness::after {
+    content: "level take out";
+    display: block;
+}
+
+.takeBusiness_poragrapg {
+    width: 85%;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #636f87;
+    line-height: 27px;
+}
+
+.bt {
+    margin-top: 40px;
+    padding: 20px 40px;
+    font-size: 16px;
+    background-color: #1AAB7B;
+    border: 1px solid #1AAB7B;
+    border-radius: 6px;
+    color: white;
+    transition: 0.4s;
+
+}
+
+.bt:hover {
+    color: #1AAB7B;
+    background-color: white;
+}
+
+.secondSection {
+    margin-top: 92px;
+
+    background-color: #F2F4F6;
+}
+
+.row2 {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.takeBusiness2 {
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 50.4px;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.coub {
+    width: 320px;
+    height: 358px;
+    border-radius: 5px;
+    background-color: #1AAB7B;
+    padding: 30px;
+}
+
+h2 {
+    margin-top: 10px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44.8px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.poragraf {
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.coubsecond {
+    width: 320px;
+    height: 358px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 30px;
+
+}
+
+.link {
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: white;
+}
+
+.poragraff {
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.link2 {
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: black;
+
+}
+
+.h2 {
+    margin-top: 10px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44.8px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.coub:hover {
+    background-color: #E1E7ED;
+    color: black;
+    transition: 0.5s;
+}
+
+.coubsecond:hover {
+    background-color: #1AAB7B;
+    color: white;
+    transition: 0.5s;
+}
+
+.thirdsection {
+    margin-top: 92px;
+}
+
+.around {
+    display: flex;
+    gap: 50px;
+}
+
+.takeBusiness3 {
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50.4px;
+    text-align: center;
+}
+
+.poragrafff {
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #636F87;
+}
+
+.img {
+    width: 1216px;
+    height: 515px;
+}
+
+.footer {
+    display: flex;
+    height: 150px;
+    align-items: center;
+    margin-top: 30px;
+    background-color: #101010;
+}
+.footer_logo{
+    width: 87px;
+    height: 28px;
+}
+.footer_last{
+    width: 103px;
+    height: 25px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25.2px;
+}
+.footer_lastt{
+    width: 157px;
+    height: 25px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25.2px;
+}
+
+.footer_list{
+    display: flex;
+}
+.footer_list-item{
+    list-style: none;
+}
+.SMM{
+    margin-top: 20px;
+    width: 43px;
+    height: 27px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #636F87;
+}
+.Aboutus{
+    margin-top: 20px;
+    width: 77px;
+    height: 27px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #636F87;
+}
+.fa-brands{
+    margin-top: 27px;
+}
+
